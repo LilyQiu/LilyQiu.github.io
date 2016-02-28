@@ -1,1 +1,314 @@
-Hello I am LilyQiu
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>interviewWork--邱莉莉</title>
+</head>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+<!--<script type="text/javascript" src="js/index.js"></script>-->
+<script type="text/javascript" src="js/move.js"></script>
+<script type="text/javascript" src="js/tween.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<body>
+<div class="hd-top">
+    <div class="header clear">
+    	<div class="wrap">
+            <div class="welcome">欢迎来到坑梓社区家园网！</div>
+            <ul>
+                <li><a href="javascript:;" >登录</a> | </li><li><a href="javascript:;" >注册</a> | </li><li><a href="javascript:;" >个人主页</a></li>
+            </ul>
+            <div class="weather">今天：深圳<i></i>多云 32C~27C 微风 详细>></div>
+        </div>
+    </div>
+    
+    <div class="top wrap">
+        <div class="logo"><img src="img/logo.png"></div>
+        <div class="search"><input class="text" type="text" id="text" value="请输入您要搜索的内容"><strong class="button"></strong></div>
+    </div>
+    
+    <div class="nav" id="nav">
+    	<ul class="wrap">
+        	<li class="active li-1"><a href="javascript:;">首页</a></li>
+            <li><a href="javascript:;">社区资讯</a></li>
+            <li><a href="javascript:;">信息公开</a></li>
+            <li><a href="javascript:;">我要办事</a></li>
+            <li><a href="javascript:;">社区党建</a></li>
+            <li><a href="javascript:;">社区服务</a></li>
+            <li><a href="javascript:;">社区管理</a></li>
+            <li><a href="javascript:;">社区自治</a></li>
+            <li><a href="javascript:;">社区论坛</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="content wrap">
+	<div class="section1 bk">
+    	<!--<div class="s1-part1 fl">
+        	<img src="img/lunbo-1.png">
+            <p>坑梓2000份返乡礼包送来深建设者</p>
+        </div>-->
+        <div class="s1-part1 fl">
+            <div id="div1">
+                <ul>
+                    <li><img src="img/lunbo5.jpg" style=" opacity: 1; filter:alpha(opacity=100);" /></li>
+                    <li><img src="img/lunbo1.jpg" /></li>
+                    <li><img src="img/lunbo2.jpg" /></li>
+                    <li><img src="img/lunbo3.jpg" /></li>
+                    <li><img src="img/lunbo4.jpg" /></li>
+                </ul>
+                <div id="btn">
+                    <a href="javascript:;" class="active">1</a>
+                    <a href="javascript:;">2</a>
+                    <a href="javascript:;">3</a>
+                    <a href="javascript:;">4</a>
+                    <a href="javascript:;">5</a>
+                </div>
+            </div>
+            <p id="p">1坑梓2000份返乡礼包送来深建设者</p>
+        </div>
+
+    	<div class="s1-part2 fl">
+        	<img src="img/weixin.png">
+        </div>
+    	<div class="s1-part3 fl">
+        	<div class="xinwen clear">
+            	<div class="xw fl" id="xw">
+                	<a class="active" href="javascript:;"><i class="i1">社</i><i>区</i><i>公</i><i>告</i></a>
+                	<a href="javascript:;"><i class="i1">社</i><i>区</i><i>动</i><i>态</i></a>
+                </div>
+                <div class="xw-list fr" id="xw-list">
+                    <ul class="list fl" style="display:block" id="list">
+                        <li><a href="javascript:;">坑梓社区居委会第二届居民议事会换届选举工作总结</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">群众点菜，政府买单项目第二批公示资料\第二批民...</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">坑梓社区服务中心</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">月活动预告</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">计划转供电通知书</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">坑梓社区服务中心2015年4月活动预告</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">坑梓社区服务中心2015年3月财务公示</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">招募环保小卫士数名</a><strong>[2015-07-06]</strong></li>
+                    </ul>
+                    <ul class="list fl"  id="list1">
+                        <li><a href="javascript:;">2坑梓社区居委会第二届居民议事会换届选举工作总结</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">2群众点菜，政府买单项目第二批公示资料\第二批民...</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">2坑梓社区服务中心</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">2月活动预告</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">2计划转供电通知书</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">2坑梓社区服务中心2015年4月活动预告</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">2坑梓社区服务中心2015年3月财务公示</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">2招募环保小卫士数名</a><strong>[2015-07-06]</strong></li>
+                    </ul>
+                </div>
+                <a class="more fr" href="javascript:;">更多></a>
+            </div>
+        </div>
+    	<div class="s1-part4 fl">
+        	<div class="banshi">
+            	<div class="title"><h2>网上办事</h2></div>
+                <div class="banshi-con">
+                	<ul>
+                    	<li><i class="i1"></i><p>计生服务</p></li>
+                    	<li><i class="i2"></i><p>劳动保障</p></li>
+                    	<li><i class="i3"></i><p>民政业务</p></li>
+                    	<li class="li4"><i class="i4"></i><p>房屋租赁</p></li>
+                    	<li><i class="i5"></i><p>法律援助</p></li>
+                    	<li><i class="i6"></i><p>城管业务</p></li>
+                    	<li><i class="i7"></i><p>组织关系</p></li>
+                        <li class="li8"><i class="i8"></i><p>经济科技</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section2 bk" id="section2">
+    	<ul class="fuwu-nav" id="fuwu-nav">
+        	<li	class="active"><a href="javascript:;">公共服务</a></li>
+        	<li ><a href="javascript:;">公益服务</a></li>
+        	<li><a href="javascript:;">便民服务</a></li>
+        	<li><a href="javascript:;">自助互助服务</a></li>
+        </ul>
+        <div id="s2-list">
+        	<ul	class="fuwu-jieshao fuwu1" style="display:block">
+            	<li><img src="img/img1.png"><i></i><em><p><strong>服务介绍：</strong>社区服务中心认真听取老年协会和老年家庭建议，制定老年服务计划，安排社工..</p><a href="javascript:;">查看更多>></a></em><b class="b-active">老年人</b></li>
+            	<li><img src="img/img4.png"><i></i><em><p><strong>服务介绍：</strong>社区服务中心根据儿童及青少年的发展特点，通过多层次的自信心训练提升他们的...</p><a href="javascript:;">查看更多>></a></em><b class="b-active">青少年</b></li>
+            	<li><img src="img/img2.png"><i></i><em><p><strong>服务介绍：</strong>社区服务中心积极整合新区残联、慈善基金、特教机构等资源，为新区广大残疾...</p><a href="javascript:;">查看更多>></a></em><b class="b-active">残疾人</b></li>
+            	<li><img src="img/img5.png"><i></i><em><p><strong>服务介绍:</strong>针对社区妇女在家庭关系调适、技能培训、康乐保健等方面的需求，社区服务...</p><a href="javascript:;">查看更多>></a></em><b class="b-active">妇女</b></li>
+            	<li class="last-li"><img src="img/img4.png"><i></i><em><p><strong>服务介绍:</strong>为来深建设者专门设计了法律咨询、维权、技能培训、儿童托管、社交训练...</p><a href="javascript:;">查看更多>></a></em><b class="b-last b-active">来深建造者</b></li>
+            </ul>
+        	<ul class="fuwu-jieshao fuwu2">
+            	<li><img src="img/img2.png"><i></i><em><p><strong>服务介绍：</strong>社区服务中心认真听取老年协会和老年家庭建议，制定老年服务计划，安排社工..</p><a href="javascript:;">查看更多>></a></em><b class="b-active">老年人</b></li>
+            	<li><img src="img/img3.png"><i></i><em><p><strong>服务介绍：</strong>社区服务中心根据儿童及青少年的发展特点，通过多层次的自信心训练提升他们的...</p><a href="javascript:;">查看更多>></a></em><b class="b-active">青少年</b></li>
+            	<li><img src="img/img5.png"><i></i><em><p><strong>服务介绍：</strong>社区服务中心积极整合新区残联、慈善基金、特教机构等资源，为新区广大残疾...</p><a href="javascript:;">查看更多>></a></em><b class="b-active">残疾人</b></li>
+            	<li><img src="img/img1.png"><i></i><em><p><strong>服务介绍:</strong>针对社区妇女在家庭关系调适、技能培训、康乐保健等方面的需求，社区服务...</p><a href="javascript:;">查看更多>></a></em><b class="b-active">妇女</b></li>
+            	<li class="last-li"><img src="img/img4.png"><i></i><em><p><strong>服务介绍:</strong>为来深建设者专门设计了法律咨询、维权、技能培训、儿童托管、社交训练...</p><a href="javascript:;">查看更多>></a></em><b class="b-last b-active">来深建造者</b></li>
+            </ul>
+        	<ul class="fuwu-jieshao fuwu3">
+            	<li><img src="img/img3.png"><i></i><em><p><strong>服务介绍：</strong>社区服务中心认真听取老年协会和老年家庭建议，制定老年服务计划，安排社工..</p><a href="javascript:;">查看更多>></a></em><b class="b-active">老年人</b></li>
+            	<li><img src="img/img5.png"><i></i><em><p><strong>服务介绍：</strong>社区服务中心根据儿童及青少年的发展特点，通过多层次的自信心训练提升他们的...</p><a href="javascript:;">查看更多>></a></em><b class="b-active">青少年</b></li>
+            	<li><img src="img/img2.png"><i></i><em><p><strong>服务介绍：</strong>社区服务中心积极整合新区残联、慈善基金、特教机构等资源，为新区广大残疾...</p><a href="javascript:;">查看更多>></a></em><b class="b-active">残疾人</b></li>
+            	<li><img src="img/img1.png"><i></i><em><p><strong>服务介绍:</strong>针对社区妇女在家庭关系调适、技能培训、康乐保健等方面的需求，社区服务...</p><a href="javascript:;">查看更多>></a></em><b class="b-active">妇女</b></li>
+            	<li class="last-li"><img src="img/img4.png"><i></i><em><p><strong>服务介绍:</strong>为来深建设者专门设计了法律咨询、维权、技能培训、儿童托管、社交训练...</p><a href="javascript:;">查看更多>></a></em><b class="b-last b-active">来深建造者</b></li>
+            </ul>
+        	<ul class="fuwu-jieshao fuwu4">
+            	<li><img src="img/img4.png"><i></i><em><p><strong>服务介绍：</strong>社区服务中心认真听取老年协会和老年家庭建议，制定老年服务计划，安排社工..</p><a href="javascript:;">查看更多>></a></em><b class="b-active">老年人</b></li>
+            	<li><img src="img/img1.png"><i></i><em><p><strong>服务介绍：</strong>社区服务中心根据儿童及青少年的发展特点，通过多层次的自信心训练提升他们的...</p><a href="javascript:;">查看更多>></a></em><b class="b-active">青少年</b></li>
+            	<li><img src="img/img2.png"><i></i><em><p><strong>服务介绍：</strong>社区服务中心积极整合新区残联、慈善基金、特教机构等资源，为新区广大残疾...</p><a href="javascript:;">查看更多>></a></em><b class="b-active">残疾人</b></li>
+            	<li><img src="img/img5.png"><i></i><em><p><strong>服务介绍:</strong>针对社区妇女在家庭关系调适、技能培训、康乐保健等方面的需求，社区服务...</p><a href="javascript:;">查看更多>></a></em><b class="b-active">妇女</b></li>
+            	<li class="last-li"><img src="img/img3.png"><i></i><em><p><strong>服务介绍:</strong>为来深建设者专门设计了法律咨询、维权、技能培训、儿童托管、社交训练...</p><a href="javascript:;">查看更多>></a></em><b class="b-last b-active">来深建造者</b></li>
+            </ul>
+        </div>
+    </div>
+    <div class="section3 bk clear">
+        <div class="s3-l fl">
+        	<h2>社区互动</h2>
+            <ul class="s3-nav" id="s3-nav">
+                <li class="active"><a href="javascript:;">社区活动</a></li>
+                <li><a href="javascript:;">兴趣小组</a></li>
+                <li><a href="javascript:;">议事会</a></li>
+                <li><a href="javascript:;">爱心捐款</a></li>
+                <li><a href="javascript:;">正义力量</a></li>
+            </ul>
+            <div id="s3-list">
+            	<ul class="s3-list" style="display:block">
+                    <li><a href="javascript:;"><img src="img/photo1.png"><p>坑梓社区高血压自我管理小组第
+        2期招募讲座</p></a></li>
+                    <li><a href="javascript:;"><img src="img/photo2.png"><p>动手又动脑，欢乐迎新年 --春
+        节年俗小组</p></a></li>
+                    <li><a href="javascript:;"><img src="img/photo3.png"><p>“全民健康，从我做起”-高血
+        压自我管理小组</p></a></li>
+                </ul>
+                <ul class="s3-list" >
+                    <li><a href="javascript:;"><img src="img/photo1.png"><p>坑梓社区高血压自我管理小组第
+        2期招募讲座</p></a></li>
+                    <li><a href="javascript:;"><img src="img/photo3.png"><p>动手又动脑，欢乐迎新年 --春
+        节年俗小组</p></a></li>
+                    <li><a href="javascript:;"><img src="img/photo2.png"><p>“全民健康，从我做起”-高血
+        压自我管理小组</p></a></li>
+                </ul>
+                <ul class="s3-list" >
+                    <li><a href="javascript:;"><img src="img/photo2.png"><p>坑梓社区高血压自我管理小组第
+        2期招募讲座</p></a></li>
+                    <li><a href="javascript:;"><img src="img/photo1.png"><p>动手又动脑，欢乐迎新年 --春
+        节年俗小组</p></a></li>
+                    <li><a href="javascript:;"><img src="img/photo3.png"><p>“全民健康，从我做起”-高血
+        压自我管理小组</p></a></li>
+                </ul>
+                 <ul class="s3-list" >
+                    <li><a href="javascript:;"><img src="img/photo2.png"><p>坑梓社区高血压自我管理小组第
+        2期招募讲座</p></a></li>
+                    <li><a href="javascript:;"><img src="img/photo3.png"><p>动手又动脑，欢乐迎新年 --春
+        节年俗小组</p></a></li>
+                    <li><a href="javascript:;"><img src="img/photo1.png"><p>“全民健康，从我做起”-高血
+        压自我管理小组</p></a></li>
+                </ul>
+                 <ul class="s3-list" >
+                    <li><a href="javascript:;"><img src="img/photo3.png"><p>坑梓社区高血压自我管理小组第
+        2期招募讲座</p></a></li>
+                    <li><a href="javascript:;"><img src="img/photo1.png"><p>动手又动脑，欢乐迎新年 --春
+        节年俗小组</p></a></li>
+                    <li><a href="javascript:;"><img src="img/photo2.png"><p>“全民健康，从我做起”-高血
+        压自我管理小组</p></a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="s3-r fr">
+        	<a class="r1" href="javascript:;"><img src="img/huodong1.png"></a>
+        	<a class="r2" href="javascript:;"><img src="img/huodong2.png"></a>
+        	<a class="r3" href="javascript:;"><img src="img/huodong3.png"></a>
+        </div>
+    </div>
+    <div class="clear wrap">
+    	<div class="fl">
+            <div class="section4 bk">
+                <div class="title clear">
+                    <h2 class="fl">热点话题</h2>
+                    <a class="fr" href="javascript:;">更多></a>
+                </div>
+            	<div class="s4-list">
+                	 <ul class="list" id="list2">
+                        <li><a href="javascript:;">坑梓社区居委会第二届居民议事会换届选举工作总结</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">群众点菜，政府买单项目第二批公示资料\第二批民...</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">坑梓社区服务中心</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">月活动预告</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">计划转供电通知书</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">坑梓社区服务中心2015年4月活动预告</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">坑梓社区服务中心2015年3月财务公示</a><strong>[2015-07-06]</strong></li>
+                        <li><a href="javascript:;">招募环保小卫士数名</a><strong>[2015-07-06]</strong></li>
+                    </ul>
+                </div>
+               
+            </div>
+            <div class="section5-6 clear">
+                <div class="section5 bk fl">
+                	<div class="title clear">
+                        <h2 class="fl">社区视频</h2>
+                        <a class="fr" href="javascript:;">更多></a>
+                    </div>
+                    <img src="img/shipin.png">
+                    <p><strong>视频名称:</strong>小强的坪山故事</p>
+                    <p><strong>发布时间:</strong>2014-08-05</p>
+                </div>
+                
+                <div class="section6 bk fr">
+                	<div class="title">
+                        <h2 class="fl">小区信息</h2>
+                    </div>
+                    <div class="xiaoqu">
+                    	<h2>金田风华苑</h2>
+                        <p>物业电话：0755-89992828</p>
+                        <p>地址：深圳市龙岗区坪山新区坑梓人民西路33号</p>
+                    </div>
+                    <div class="xiaoqu">
+                    	<h2>裕民新村</h2>
+                        <p>物业电话：无</p>
+                        <p>地址：深圳市坪山新区坑梓街道裕民新村</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section7 bk fr">
+        	<div class="title">
+            	<h2 class="fl">社区概括</h2>
+            </div>
+            <p>中共坑梓社区综合委员会 书 记：李可辉 副 书 记：黄远志 委 员：黄燕银、高曙光、曾秀红 兼职委员：赵 勇 下设支部及支部书记 社区直属党支部 书记：李可辉 湖心新村党支部 书记：曾秀红  裕民新村党支部 书记：高德清  利民新村党支部 书记：高曙光.... <i>[详细]</i></p>
+            <hr>
+            <div class="link">
+            	<p><strong>联系人：</strong>李可辉</p>
+            	<p><strong>联系电话：</strong>0755-89999122</p>
+            	<p><strong>工作时间：</strong>9：00-12:00 14:00-18:00</p>
+            	<p><strong>地址：</strong>深圳市龙岗区坑梓镇人民西路160号</p>
+            </div>
+            <img src="img/jiaotong.png">
+    	</div>
+    </div>
+    <div class="section8 bk">
+    	<div class="you-link fl">
+        	<a class="active" href="javascript:;"><i class="i1">友</i><i>情</i><i>链</i><i>接</i></a>
+        </div>
+       	<ul>
+        	<li class="li1"><a href="javascript:;">竹坑社区家园网</a></li>
+        	<li class="li1"><a href="javascript:;">田心社区家园网</a></li>
+        	<li class="li2"><a href="javascript:;">田头社区家园网</a></li>
+        	<li class="li2"><a href="javascript:;">汤坑社区家园网</a></li>
+        	<li class="li3"><a href="javascript:;">石井社区家园网</a></li>
+        	<li class="li3"><a href="javascript:;">沙堂社区家园网</a></li>
+        	<li class="li4"><a href="javascript:;">沙湖社区家园网</a></li>
+        	<li class="li4"><a href="javascript:;">坪山社区家园网</a></li>
+        	<li class="li5"><a href="javascript:;">坪环社区家园网</a></li>
+        	<li class="li5"><a href="javascript:;">南布社区家园网</a></li>
+        	<li class="li6"><a href="javascript:;">马峦社区家园网</a></li>
+        	<li class="li6"><a href="javascript:;">六联社区家园网</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="bottom-line"></div>
+
+<div class="footer wrap">
+	<p>深圳社区家园网 版权所有 Copyright © www.gbsq.org All Right Reserved.后台管理入口</p>
+    <p>互联网违法和不良信息举报中心 粤ICP备11066310号-1 </p>
+</div>
+
+</body>
+</html>
